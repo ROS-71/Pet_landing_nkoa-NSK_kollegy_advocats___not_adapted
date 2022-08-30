@@ -1,0 +1,191 @@
+/* Убираем поля по границам страницы */
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+/* Задаём цвет подложки к тегу body */
+body{
+background-color: lightgray;
+}
+
+.zagolovok{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: white;
+	background-color: rgb(72, 203, 255);
+	text-shadow: 1px 1px 2px black, 0 0 1em white;		/* Тень текста и свечение белым сзади */
+	padding-top: 100px;
+	padding-bottom: 20px;
+	padding-left: 20%;
+	height: 200px;
+	border: solid 1px black;
+	overflow-wrap: break-word;
+	
+}
+
+.headlogo{
+	position: absolute;
+	float: left;
+	width: 270px;
+	padding-left: 30%;
+}
+
+
+/* Опиание подложки меню и кнопок на ней */
+	.topMenuNavigation{
+		position: relative;
+		vertical-align: middle;
+		text-align: center;
+		top: -50px;											/* делаем наложение блоков (словёв) поднятием границы со знаком минус */
+		border: solid 1px;
+		border-radius: 50px 50px 0 0 ;
+		width: 1000px;
+		height: 100px;
+		background-color: rgb(209, 204, 204);
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	
+	/* описание визуализации кнопки */
+	.button{
+		font-weight: bold;
+		float: left;
+		margin: 30px 1px;
+		margin-left: 6%;
+		width: 170px;
+		height: 40px;
+		padding: 10px;
+		background-color: transparent;
+		border: none;
+		border-radius: 10px;
+	}
+	
+	/* при наведении на кнопку - изменение визуализации */
+	.button:hover{
+		color: rgb(2, 0, 0);
+		background: deepskyblue;
+	}
+	
+	.mainInfoBlock{
+		position: relative;
+		border: solid 1px;
+		width: 1000px;
+		height: 1000px;
+		background-color: white;
+		margin-left: auto;
+		margin-right: auto;
+		top: -50px;
+	}
+
+	.zagolovok_2{
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 24pt;
+		text-align: center;
+		padding-top: 10pt;;
+	}
+
+	.album{
+		background-color: lightgray;
+		font-size: 30pt;
+		text-align: center;
+		height: 370px;
+
+		/* временный текст уведомления: */
+		vertical-align: middle;
+		display: table-cell;
+		color: crimson;
+	}
+
+	.textbold{
+		font-weight: bold;
+	}
+
+	.o_kollegii{
+		padding-left: 15pt;
+		padding-right: 15pt;
+		text-align: justify;
+		line-height: 1.8;
+	}
+
+	.tableInfoBlock{
+		font-family: Arial, Helvetica, sans-serif;
+		width: 100%;
+		text-align: justify;
+ 		padding-left: 1%;
+
+		line-height: 2;
+		overflow-wrap: break-word;
+	}
+	
+	.cellInfo{
+		width: 33%;
+		padding-right: 5%;
+		vertical-align: top;
+		
+	}
+
+	.downInfoBlock{
+		position: absolute;
+		border: solid 1px;
+		width: 100%;
+		height: 300px;
+		background-color: black;
+		top: 1350px;
+		margin: 0;
+	}
+
+	.gerbNSK{
+		padding-left: 35%;
+		padding-top: 4%;
+	}
+
+	.downMenuNavigation{
+		font-family: Arial, Helvetica, sans-serif;
+		color: white;
+		
+		position: relative;
+		text-align: center;
+		top: -150px;
+		padding-left: 8%;
+	}
+
+	/* Убирание нижнего подчёркиванния ссылок и изменнеие цвета ссылок с синего на белый - типа простого текста */
+	.noUnderLine{
+		text-decoration: none;
+		color: white;
+		font-weight: bolder;
+	}
+	
+	.contact{
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: .8em;
+		color: grey;
+		position: relative;
+		padding-left: 41.7%;
+		top: -135px;
+		line-height: 1.8;
+	}
+
+	.copyright{
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: .8em;
+		color: grey;
+		position: relative;
+		text-align: center;
+		top: -95px;
+		line-height: 1.8;
+	}
+
+
+	/* .otcherk_bottom{
+		position: relative;
+		border: solid 1px;
+		width: 100%;
+		height: 100px;
+		background-color: black;
+		top: -30px;
+		
+	} */
+	
