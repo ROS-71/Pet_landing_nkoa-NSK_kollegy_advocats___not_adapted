@@ -9,7 +9,9 @@ body{
 background-color: lightgray;
 }
 
-.zagolovok{
+
+
+h1{
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
 	color: white;
@@ -17,18 +19,24 @@ background-color: lightgray;
 	text-shadow: 1px 1px 2px black, 0 0 1em white;		/* Тень текста и свечение белым сзади */
 	padding-top: 100px;
 	padding-bottom: 20px;
-	padding-left: 20%;
+	padding-right: 12%;
+	padding-left: 30%;
 	height: 200px;
 	border: solid 1px black;
-	overflow-wrap: break-word;
+	/* overflow-wrap: break-word; */
+	margin: 0;
+	
 	
 }
 
 .headlogo{
-	position: absolute;
+	position: relative;
 	float: left;
 	width: 270px;
-	padding-left: 30%;
+	padding-left: 25%;
+	margin: 0;
+	
+	
 }
 
 
@@ -86,17 +94,67 @@ background-color: lightgray;
 		padding-top: 10pt;;
 	}
 
-	.album{
-		background-color: lightgray;
-		font-size: 30pt;
-		text-align: center;
-		height: 370px;
+.goryinova{
+	margin-left: 1%;
+}
 
-		/* временный текст уведомления: */
-		vertical-align: middle;
-		display: table-cell;
-		color: crimson;
+
+
+	.slider{
+		
+		width: 900px;
+		height: 320px;
+		/* border: solid 2px black; */
+		margin: 30px auto;
+		overflow: hidden;
+
+
 	}
+
+	.slider-line{
+		width: 8100px;					/* указываем ширину блока слайдер - сумма всех значений ширины всех блоков, картинок и т.д. */
+		height: 292px;
+		/* background-color: orangered; */
+		display: flex;
+		position: relative;
+		left: 0;
+		transition: all ease 1s ;
+	}
+
+	
+
+	.about{
+		width: 900px;
+		font-family: Arial, Helvetica, sans-serif;
+		float: right;
+		margin: 7px 200px 7px 50px;
+		line-height: 2;
+	}
+	/* .about_feoktisova{
+		width: 900px;
+		font-family: Arial, Helvetica, sans-serif;
+		float: right;
+		margin: 7px 230px 7px 0;
+		line-height: 2;
+	} */
+
+	.btn_report{
+		float: right;
+		margin: 7px 150px 7px 0;
+		width: 200px;
+		height: 50px;
+		border: solid 2px lightgrey;
+		border-radius: 10px;
+		background-color: white;
+		font-size: 12pt;
+		font-family: Arial, Helvetica, sans-serif;
+		line-height: 1.7;
+	}
+
+
+
+
+
 
 	.textbold{
 		font-weight: bold;
@@ -139,6 +197,7 @@ background-color: lightgray;
 	.gerbNSK{
 		padding-left: 35%;
 		padding-top: 4%;
+	
 	}
 
 	.downMenuNavigation{
@@ -159,13 +218,14 @@ background-color: lightgray;
 	}
 	
 	.contact{
+		position: relative;
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: .8em;
 		color: grey;
-		position: relative;
 		padding-left: 41.7%;
 		top: -135px;
 		line-height: 1.8;
+		
 	}
 
 	.copyright{
@@ -179,13 +239,5 @@ background-color: lightgray;
 	}
 
 
-	/* .otcherk_bottom{
-		position: relative;
-		border: solid 1px;
-		width: 100%;
-		height: 100px;
-		background-color: black;
-		top: -30px;
-		
-	} */
+
 	
