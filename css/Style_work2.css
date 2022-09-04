@@ -9,8 +9,6 @@ body{
 background-color: lightgray;
 }
 
-
-
 h1{
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
@@ -25,8 +23,6 @@ h1{
 	border: solid 1px black;
 	/* overflow-wrap: break-word; */
 	margin: 0;
-	
-	
 }
 
 .headlogo{
@@ -35,9 +31,11 @@ h1{
 	width: 270px;
 	padding-left: 25%;
 	margin: 0;
-	
-	
 }
+
+/* --------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------- ГЛАВНАЯ СТРАНИЦА -------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------- */
 
 
 /* Опиание подложки меню и кнопок на ней */
@@ -55,7 +53,6 @@ h1{
 		margin-right: auto;
 	}
 
-	
 	/* описание визуализации кнопки */
 	.button{
 		font-weight: bold;
@@ -80,7 +77,7 @@ h1{
 		position: relative;
 		border: solid 1px;
 		width: 1000px;
-		height: 1000px;
+		height: 1200px;
 		background-color: white;
 		margin-left: auto;
 		margin-right: auto;
@@ -94,21 +91,16 @@ h1{
 		padding-top: 10pt;;
 	}
 
-.goryinova{
-	margin-left: 1%;
-}
-
-
+	.goryinova{
+		margin-left: 1%;
+	}
 
 	.slider{
-		
 		width: 900px;
 		height: 320px;
 		/* border: solid 2px black; */
 		margin: 30px auto;
 		overflow: hidden;
-
-
 	}
 
 	.slider-line{
@@ -121,8 +113,6 @@ h1{
 		transition: all ease 1s ;
 	}
 
-	
-
 	.about{
 		width: 900px;
 		font-family: Arial, Helvetica, sans-serif;
@@ -130,13 +120,6 @@ h1{
 		margin: 7px 200px 7px 50px;
 		line-height: 2;
 	}
-	/* .about_feoktisova{
-		width: 900px;
-		font-family: Arial, Helvetica, sans-serif;
-		float: right;
-		margin: 7px 230px 7px 0;
-		line-height: 2;
-	} */
 
 	.btn_report{
 		float: right;
@@ -151,10 +134,10 @@ h1{
 		line-height: 1.7;
 	}
 
-
-
-
-
+	.btn_report:hover{
+		color: black;
+		background:rgb(209, 204, 204);
+	}
 
 	.textbold{
 		font-weight: bold;
@@ -172,7 +155,6 @@ h1{
 		width: 100%;
 		text-align: justify;
  		padding-left: 1%;
-
 		line-height: 2;
 		overflow-wrap: break-word;
 	}
@@ -181,7 +163,6 @@ h1{
 		width: 33%;
 		padding-right: 5%;
 		vertical-align: top;
-		
 	}
 
 	.downInfoBlock{
@@ -190,24 +171,23 @@ h1{
 		width: 100%;
 		height: 300px;
 		background-color: black;
-		top: 1350px;
+		top: 1570px;
 		margin: 0;
 	}
 
 	.gerbNSK{
+		position: relative;
+		float: left;
 		padding-left: 35%;
 		padding-top: 4%;
-	
 	}
 
 	.downMenuNavigation{
 		font-family: Arial, Helvetica, sans-serif;
 		color: white;
-		
-		position: relative;
-		text-align: center;
-		top: -150px;
-		padding-left: 8%;
+		float: right;
+		padding-top: 3%;
+		padding-right: 30%;
 	}
 
 	/* Убирание нижнего подчёркиванния ссылок и изменнеие цвета ссылок с синего на белый - типа простого текста */
@@ -218,26 +198,102 @@ h1{
 	}
 	
 	.contact{
-		position: relative;
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: .8em;
 		color: grey;
-		padding-left: 41.7%;
-		top: -135px;
+		float: right;
+		padding-right: 34.2%;
+		padding-top: 1%;
 		line-height: 1.8;
-		
 	}
 
 	.copyright{
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: .8em;
 		color: grey;
-		position: relative;
-		text-align: center;
-		top: -95px;
+		float: right;
+		padding-right: 40%;
+		padding-top: 0.5%;
 		line-height: 1.8;
 	}
 
 
+/* --------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------- СТРАНИЦА ЮРИДИЧЕСКОЙ ПОМОЩИ --------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------- */
 
+.zagolovok_ur_help{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30pt;
+	font-weight: bold;
+	padding: 20px 0 0 60px;
+}
+
+.btn_ur_help{
+	color: black;
+	background-color: white;
+	border: solid 2px lightgrey;
+	border-radius: 10px;
+	width: 300px;
+	height: 50px;
+	margin-bottom: 15px;
+	margin-left: 60px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+}
+.btn_ur_help:hover{
+	color: black;
+	background-color: lightgrey;
+}
+
+.spisok{
+	width: 550px;
+	float: right;
+	font-family: Arial, Helvetica, sans-serif;
+	word-wrap: break-word;
+	font-size: 12pt;
+	line-height: 2.2;
+	margin: -465px 10px;
+}
+
+.otstupUL{
+	margin-left: 8%;
+}
+
+.otstupKrStr{
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 6%;
+	line-height: 2;
+}
+
+
+.palateContacts{
+	font-size: 12pt;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	padding-left: 10px;
+	line-height: 2.5;
+	
+	/* Делаем сетку таблицы. Убираем двойную линию разметки
+	во всей таблицы через collapse и сливаем 
+	с фоном внешнюю границу через border. НАЧАЛО */
+	border-collapse: collapse;
+	border: solid 2px white;
+}
+/* Делаем сетку таблицы. Указываем border для 
+	внутренних границы КОНЕЦ */
+.setka{
+	padding-left: 10px;
+	border: solid 1px black;
+}
+
+.tableZagolovok{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: left;
+	
+}
 	
