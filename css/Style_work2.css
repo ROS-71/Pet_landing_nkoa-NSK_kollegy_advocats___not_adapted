@@ -9,7 +9,7 @@ body{
 background-color: lightgray;
 }
 
-h1{
+.mainZagolovok{
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
 	color: white;
@@ -17,7 +17,7 @@ h1{
 	text-shadow: 1px 1px 2px black, 0 0 1em white;		/* Тень текста и свечение белым сзади */
 	padding-top: 100px;
 	padding-bottom: 20px;
-	padding-right: 12%;
+	padding-right: 27%;
 	padding-left: 30%;
 	height: 200px;
 	border: solid 1px black;
@@ -29,7 +29,7 @@ h1{
 	position: relative;
 	float: left;
 	width: 270px;
-	padding-left: 25%;
+	padding-left: 30%;
 	margin: 0;
 }
 
@@ -91,7 +91,7 @@ h1{
 		padding-top: 10pt;;
 	}
 
-	.goryinova{
+	.goryinova1{
 		margin-left: 1%;
 	}
 
@@ -141,7 +141,8 @@ h1{
 
 	.textbold{
 		font-weight: bold;
-	}
+		}
+
 
 	.o_kollegii{
 		padding-left: 15pt;
@@ -180,6 +181,7 @@ h1{
 		float: left;
 		padding-left: 35%;
 		padding-top: 4%;
+		
 	}
 
 	.downMenuNavigation{
@@ -187,7 +189,8 @@ h1{
 		color: white;
 		float: right;
 		padding-top: 3%;
-		padding-right: 30%;
+		padding-right: 40%;
+		width: 550px;
 	}
 
 	/* Убирание нижнего подчёркиванния ссылок и изменнеие цвета ссылок с синего на белый - типа простого текста */
@@ -198,11 +201,12 @@ h1{
 	}
 	
 	.contact{
+		width: 500px;
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: .8em;
 		color: grey;
 		float: right;
-		padding-right: 34.2%;
+		padding-right: 41.4%;
 		padding-top: 1%;
 		line-height: 1.8;
 	}
@@ -212,7 +216,7 @@ h1{
 		font-size: .8em;
 		color: grey;
 		float: right;
-		padding-right: 40%;
+		padding-right: 45%;
 		padding-top: 0.5%;
 		line-height: 1.8;
 	}
@@ -267,7 +271,6 @@ h1{
 	line-height: 2;
 }
 
-
 .palateContacts{
 	font-size: 12pt;
 	width: 900px;
@@ -294,6 +297,274 @@ h1{
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	text-align: left;
-	
 }
 	
+/* --------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------- СТРАНИЦА ЮРИДИЧЕСКОЙ ПОМОЩИ --------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------- */
+
+.mainInfoBlockLong{
+	position: relative;
+	border: solid 1px;
+	width: 1000px;
+	height: 3300px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	top: -50px;
+}
+
+.downInfoBlockLong{
+	position: absolute;
+	border: solid 1px;
+	width: 100%;
+	height: 300px;
+	background-color: black;
+	top: 3670px;
+	margin: 0;
+}
+
+.downMenuNavigationLong{
+	font-family: Arial, Helvetica, sans-serif;
+		color: white;
+		float: right;
+		padding-top: 3%;
+		padding-right: 40%;
+}
+
+.gerbNSKLong{
+	position: relative;
+		float: left;
+		padding-left: 35%;
+		padding-top: 4%;
+}
+
+.contactLong{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	color: grey;
+	float: right;
+	padding-right: 43%;
+	padding-top: 1%;
+	line-height: 1.8;
+}
+
+.copyrightLong{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	color: grey;
+	float: right;
+	padding-right: 45%;
+	padding-top: 0.5%;
+	line-height: 1.8;
+}
+
+.membersZagolovok{
+	padding-left: 60px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.membersOtstup{
+margin-left: 60px;
+margin-right: 20px;
+}
+
+.marginBlockBottom{
+	margin-bottom: 70px;
+}
+
+.wideImg{
+width: 434px;
+height: 276px;
+font-family: Arial, Helvetica, sans-serif;
+float: right;
+line-height: 1.8;
+}
+
+
+.horizontImg{
+	width: 350px;
+	height: 276px;
+	float: right;
+	line-height: 1.8;
+	padding-right: 330px;
+}
+
+.horizontImgUhabov{
+	width: 400px;
+	height: 276px;
+	float: right;
+	line-height: 1.8;
+	padding-right: 180px;
+}
+
+
+.memContString{
+	line-height: 2;
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------- СТРАНИЦА КОНТАТОВ ------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------- */
+
+
+
+.mainInfoBlockContacts{
+	position: relative;
+	border: solid 1px;
+	width: 1000px;
+	height: 900px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	top: -50px;
+}
+
+.downInfoBlockContacts{
+	position: absolute;
+	border: solid 1px;
+	width: 100%;
+	height: 300px;
+	background-color: black;
+	top: 1270px;
+	margin: 0;
+	
+}
+
+.Info{
+	padding-left: 60px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	line-height: 2;
+}
+
+.ContactInfo{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	font-size: 12pt;
+}
+
+.mapInfo{
+	color: black;
+	font-size: 12pt;
+	position: relative;
+	padding-left: 60px;
+}
+
+.map{
+	position: relative;
+	width: 850px;
+	height: 450px;
+	border: solid 1px black;
+	margin-left: 60px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------- SECONDARY PAGES ------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------- */
+
+.mainInfoBlockSecPages{
+	position: relative;
+	border: solid 1px;
+	width: 1000px;
+	height: 1600px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	top: -50px;
+}
+
+.downInfoBlockSecPages{
+	position: absolute;
+	border: solid 1px;
+	width: 100%;
+	height: 300px;
+	background-color: black;
+	top: 1950px;
+	margin: 0;
+}
+
+.mainInfoBlockSecPagesHouses{
+	position: relative;
+	border: solid 1px;
+	width: 1000px;
+	height: 1400px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	top: -50px;
+}
+
+.downInfoBlockSecPagesHouses{
+	position: absolute;
+	border: solid 1px;
+	width: 100%;
+	height: 300px;
+	background-color: black;
+	top: 1750px;
+	margin: 0;
+}
+
+.mainInfoBlockSecPagesWorks{
+	position: relative;
+	border: solid 1px;
+	width: 1000px;
+	height: 1950px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	top: -50px;
+}
+
+.downInfoBlockSecPagesWorks{
+	position: absolute;
+	border: solid 1px;
+	width: 100%;
+	height: 300px;
+	background-color: black;
+	top: 2300px;
+	margin: 0;
+}
+
+.mainInfoBlockSecPagesInheritance{
+	position: relative;
+	border: solid 1px;
+	width: 1000px;
+	height: 850px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	top: -50px;
+}
+
+.downInfoBlockSecPagesInheritance{
+	position: absolute;
+	border: solid 1px;
+	width: 100%;
+	height: 300px;
+	background-color: black;
+	top: 1200px;
+	margin: 0;
+}
+
+.mainInfoBlockSecPagesAdministrative{
+	position: relative;
+	border: solid 1px;
+	width: 1000px;
+	height: 1350px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	top: -50px;
+}
+
+.downInfoBlockSecPagesAdministrative{
+	position: absolute;
+	border: solid 1px;
+	width: 100%;
+	height: 300px;
+	background-color: black;
+	top: 1550px;
+	margin: 0;
+}
