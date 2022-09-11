@@ -17,7 +17,7 @@ background-color: lightgray;
 	text-shadow: 1px 1px 2px black, 0 0 1em white;		/* Тень текста и свечение белым сзади */
 	padding-top: 100px;
 	padding-bottom: 20px;
-	padding-right: 27%;
+	padding-right: 15%;
 	padding-left: 30%;
 	height: 200px;
 	border: solid 1px black;
@@ -189,7 +189,7 @@ background-color: lightgray;
 		color: white;
 		float: right;
 		padding-top: 3%;
-		padding-right: 40%;
+		padding-right: 30%;
 		width: 550px;
 	}
 
@@ -206,7 +206,7 @@ background-color: lightgray;
 		font-size: .8em;
 		color: grey;
 		float: right;
-		padding-right: 41.4%;
+		padding-right: 32.1%;
 		padding-top: 1%;
 		line-height: 1.8;
 	}
@@ -216,7 +216,7 @@ background-color: lightgray;
 		font-size: .8em;
 		color: grey;
 		float: right;
-		padding-right: 45%;
+		padding-right: 38%;
 		padding-top: 0.5%;
 		line-height: 1.8;
 	}
@@ -300,7 +300,7 @@ background-color: lightgray;
 }
 	
 /* --------------------------------------------------------------------------------------------------------------- */
-/* ------------------------------------- СТРАНИЦА ЮРИДИЧЕСКОЙ ПОМОЩИ --------------------------------------------- */
+/* ------------------------------------- СТРАНИЦА АДВОКАТЫ КОЛЛЕГИИ --------------------------------------------- */
 /* --------------------------------------------------------------------------------------------------------------- */
 
 .mainInfoBlockLong{
@@ -329,7 +329,7 @@ background-color: lightgray;
 		color: white;
 		float: right;
 		padding-top: 3%;
-		padding-right: 40%;
+		padding-right: 30%;
 }
 
 .gerbNSKLong{
@@ -344,7 +344,7 @@ background-color: lightgray;
 	font-size: .8em;
 	color: grey;
 	float: right;
-	padding-right: 43%;
+	padding-right: 33.9%;
 	padding-top: 1%;
 	line-height: 1.8;
 }
@@ -354,7 +354,7 @@ background-color: lightgray;
 	font-size: .8em;
 	color: grey;
 	float: right;
-	padding-right: 45%;
+	padding-right: 38%;
 	padding-top: 0.5%;
 	line-height: 1.8;
 }
