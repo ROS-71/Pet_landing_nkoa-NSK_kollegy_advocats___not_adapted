@@ -1,4 +1,4 @@
-# WEB-nkoa-NSK_kollegy_advocats-
+# Sit_nkoa_NSK_kollegy_advocats-
 
 Сайт-дубликат Новомосковской коллегии адвокатов https://www.nkato.ru/
 Данный проект делался на глаз, без макета.
